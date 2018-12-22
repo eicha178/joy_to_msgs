@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="joy" type="joy_node" name="joy_node" />
+  <node pkg="joy_to_msgs" type="joy_to_msgs_node" name="joy_to_msgs" />
+</launch>
